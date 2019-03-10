@@ -5,11 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>HarrisonCUI</title>
+
+
+    <script type="text/javascript">
+        var mobileAgent = new Array("iphone", "ipod", "ipad", "android", "mobile", "blackberry", "webos", "incognito", "webmate", "bada", "nokia", "lg", "ucweb", "skyfire");
+        var browser = navigator.userAgent.toLowerCase();
+        var isMobile = false;
+        for (var i=0; i<mobileAgent.length; i++){
+            if (browser.indexOf(mobileAgent[i])!=-1){
+                isMobile = true;
+                //alert(mobileAgent[i]);
+                location.href = '../mobile/iPhone_X_XS___1.html';
+                break;
+            }
+        }
+        </script>
+
 </head>
-<script>
-    
-</script>
+
+
 <body>
     <!-- <img src="/asset/brain.png" alt=""> -->
     <header>
@@ -96,8 +112,10 @@
     <!-- <img class="motto" src="/asset/3x/motto.png" alt=""> -->
     <!-- <img class="whitecy" src="/asset/3x/whitecy.png" alt=""> -->
     <a class= "Github2" href="https://github.com/HarrisonCUI">My Github </a>
-    <a class= "Download" href="/asset/HELLOHARRISON.pdf">My CV </a>
+    <a class= "Download" href="https://github.com/HarrisonCUI/Portfolio/raw/gh-pages/asset/HELLOHARRISON.pdf">My CV </a>
 
-    <footer></footer>
+    <footer>
+        <p>@HarrisonCUI 2019</p>
+    </footer>
 </body>
 </html>

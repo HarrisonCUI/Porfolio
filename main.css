@@ -9,7 +9,7 @@ body{
     position: relative;
     width: 100%;
     height: 50%;
-    background-image: url('asset/3x/background2.png');
+    background-image: url('/asset/SVG/background.svg');
     background-size: cover;
     background-repeat: no-repeat;
     
@@ -124,8 +124,8 @@ margin-bottom: -5px;
 .blueball{
     width: 100%;
     position: absolute ;
-    width: 40%;
-    right: -80px;
+    width: 25%;
+    right: 0px;
     padding-top: 100px;
     z-index: 2;
 }

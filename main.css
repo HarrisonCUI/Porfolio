@@ -252,6 +252,13 @@ left:50%;
     width: 5rem;
 }
 
+.lastmotto{
+    margin-top: 100px;
+    text-align: center;
+    color: rgb(247, 133, 81);
+    opacity: 0.8;
+}
+
 footer{
     margin-top: 300px;
     /* float: left; */

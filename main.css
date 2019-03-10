@@ -17,6 +17,8 @@ body{
     Georgia, "Times New Roman",
     Times, serif; 
     color: red;
+    text-shadow: 1px 1px 3px #9e9e9e;
+
  
 }
 
@@ -24,7 +26,7 @@ body{
     display: block;
     text-decoration: none;
     color: aliceblue;
-    font-size: 30px;
+    font-size: 10px;
     float: left;
     padding-top: 30px;
     margin-left: 10px;
@@ -59,11 +61,12 @@ body{
     line-height: 53px;
     margin-top: 30px;
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
     color: aliceblue;
     margin-right:10px;
     text-shadow: 1px;
     float: right;
+    text-shadow: 1px 1px 3px #666666;
 }
 
 
@@ -107,6 +110,7 @@ margin-bottom: -5px;
     background-position: center; */
     width: 100%;
     padding-bottom: 200px;
+    padding-top: 10px;
     
 }
 
@@ -114,14 +118,14 @@ margin-bottom: -5px;
     z-index: 0;
     position: absolute ;
     width: 15%;
-    padding-top: 50px;
+    padding-top: 20px;
 }
 
 .blueball{
     width: 100%;
     position: absolute ;
     width: 40%;
-    right: -10px;
+    right: -80px;
     padding-top: 100px;
     z-index: 2;
 }
@@ -147,19 +151,25 @@ margin-bottom: -5px;
     width: 30%;
     /* position: absolute;
     left:30px;*/
-    padding-top: 200px;
+    padding-top: 50px;
     float: left;
 }
 
 .profolio{
     /* position: absolute; */
     float: left;
-    width: 40%;
+    width: 60%;
+    padding: 20px;
     text-align: left;
     left: 300px;
-    padding-top: 200px;
+    padding-top: 10px;
     z-index: 2;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
+    box-shadow: 5px 5px 5px #777777;
+    border-radius: 80px;
+    background-color: rgb(241, 242, 228);
+    padding-left: 50px;
+    margin: 20px;
 }
 
 .Part3{
@@ -193,18 +203,25 @@ left:50%;
 }
 
 .Part4{
-margin-top: 100px;
+        /* background-image: url(/asset/3x/motto.png);
+        background-repeat: no-repeat;
+        background-size: CONTAIN;
+        width: 100%;
+        float: left;*/
+        /* position: relative;
+        left: 50%;  */
 
+}
+.Part4button{
+    float: left;
+    /* position: relative; */
+    display: block; 
+    margin: 0px auto;
 }
 
 .motto{
-    width: 50%;
-    height: 50%;
-    margin-top: 200px;
-    /* position: absolute; */
-    margin-left: auto;
-    margin-right: auto;
-
+ display: block;
+ margin: 0 auto;
 }
 
 .whitecy{
@@ -220,46 +237,21 @@ margin-top: 100px;
     height: 30%;
 }
 
-.Github2{
-    width: 100%;
-    display: block;
-    text-decoration: none;
-    border: 2px solid rgb(231, 134, 134) ;
-    border-radius: 6px;
-    width: 175px;
-    height: 53px;
-    line-height: 53px;
-    margin-top: 30px;
-    text-align: center; 
-    font-size: 30px;
-    color: rgb(231, 134, 134);
-    margin-right:10px;
-     /*   text-shadow: 1px; */
-    /* float: right; */
-    margin: 0px auto;
-    margin: 10px auto;
-    left:50%;
+.Github2 img{
+    width: 5rem;
 }
 
-.Download{
+.Download img{
+    width: 5rem;
+}
 
-    width: 100%;
-    display: block;
-    text-decoration: none;
-    border: 2px solid rgb(231, 134, 134) ;
-    border-radius: 6px;
-    width: 175px;
-    height: 53px;
-    line-height: 53px;
-    margin-top: 30px;
-    text-align: center; 
-    font-size: 30px;
-    color: rgb(231, 134, 134);
-        /* margin-right:10px;
-        text-shadow: 1px; */
-    /* float: right; */
-    margin: 0px auto;
-    margin-top: 5px;
-    margin: 10px auto;
-    left:50%;
+.MyArtWork img{
+    width: 5rem;
+}
+
+footer{
+    margin-top: 300px;
+    /* float: left; */
+    text-align: center;
+    color: rgb(247, 133, 81);
 }

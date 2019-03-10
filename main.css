@@ -1,0 +1,265 @@
+
+body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.Part1{
+    position: relative;
+    width: 100%;
+    height: 50%;
+    background-image: url('asset/3x/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    font-family:
+    Georgia, "Times New Roman",
+    Times, serif; 
+    color: red;
+ 
+}
+
+.HarrisonCUI{
+    display: block;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 30px;
+    float: left;
+    padding-top: 30px;
+    margin-left: 10px;
+    
+}
+.contactme{
+    width: 100%;
+    display: block;
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 6px;
+    width: 175px;
+    height: 53px;
+    line-height: 53px;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 30px;
+    color: aliceblue;
+    float: right;
+    margin-right:10px;
+    text-shadow: 1px;
+}
+
+.Github{
+    width: 100%;
+    display: block;
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 6px;
+    width: 175px;
+    height: 53px;
+    line-height: 53px;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 30px;
+    color: aliceblue;
+    margin-right:10px;
+    text-shadow: 1px;
+    float: right;
+}
+
+
+.BIGSHOT{
+display: block;
+margin-left: 20%;
+margin-right: auto; 
+width: 80%;
+margin-bottom: -5px;
+
+}
+
+.BGCharacter{
+    width: 80%;
+    position: relative;
+    text-align: center;
+
+
+}
+
+
+
+
+/* .BGCharacter img{ */
+    /* position: absolute; */
+    /* bottom:0; */
+    /* margin: 10px auto 20px;
+    display: block;
+    align-items: baseline;
+
+} */
+
+
+/* part2 */
+
+.Part2{
+    /* padding-top: 1000px;
+    background-size: cover;
+    background-image: url(/asset/3x/yellow1.png);
+    background-repeat: no-repeat;
+    background-position: center; */
+    width: 100%;
+    padding-bottom: 200px;
+    
+}
+
+.redball{
+    z-index: 0;
+    position: absolute ;
+    width: 15%;
+    padding-top: 50px;
+}
+
+.blueball{
+    width: 100%;
+    position: absolute ;
+    width: 40%;
+    right: -10px;
+    padding-top: 100px;
+    z-index: 2;
+}
+
+.yellow1{
+    position: absolute;
+    width: 30%;
+    padding-top: 500px;
+    left: -25px;
+    z-index: 0;
+}
+
+.yellow2{
+    position: absolute;
+    width: 20%;
+    padding-top: 500px;
+    left: 20px;
+    z-index: 1;
+}
+
+.me{
+    z-index: 5;
+    width: 30%;
+    /* position: absolute;
+    left:30px;*/
+    padding-top: 200px;
+    float: left;
+}
+
+.profolio{
+    /* position: absolute; */
+    float: left;
+    width: 40%;
+    text-align: left;
+    left: 300px;
+    padding-top: 200px;
+    z-index: 2;
+    padding-bottom: 100px;
+}
+
+.Part3{
+    
+    /* margin-top: 100px; */
+    width: 100%;
+    height: 200px;
+    width: 100%;
+    padding-top: 800px;
+}
+
+    /* .Part3 img{
+        width: 100%;
+        position: relative;
+        
+    } */
+
+.yellowball{
+    max-height: 50%;
+    max-width: 50%;
+    position: absolute ;
+}
+
+
+.lab{
+position: relative;
+height: 250px;
+width: 200px;
+margin: 10px auto;
+left:50%;
+}
+
+.Part4{
+margin-top: 100px;
+
+}
+
+.motto{
+    width: 50%;
+    height: 50%;
+    margin-top: 200px;
+    /* position: absolute; */
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.whitecy{
+    position: absolute;
+    width: 20%;
+
+    right: 0px;
+}
+
+.greenball{
+    position: absolute;
+    width: 30%;
+    height: 30%;
+}
+
+.Github2{
+    width: 100%;
+    display: block;
+    text-decoration: none;
+    border: 2px solid rgb(231, 134, 134) ;
+    border-radius: 6px;
+    width: 175px;
+    height: 53px;
+    line-height: 53px;
+    margin-top: 30px;
+    text-align: center; 
+    font-size: 30px;
+    color: rgb(231, 134, 134);
+    margin-right:10px;
+     /*   text-shadow: 1px; */
+    /* float: right; */
+    margin: 0px auto;
+    margin: 10px auto;
+    left:50%;
+}
+
+.Download{
+
+    width: 100%;
+    display: block;
+    text-decoration: none;
+    border: 2px solid rgb(231, 134, 134) ;
+    border-radius: 6px;
+    width: 175px;
+    height: 53px;
+    line-height: 53px;
+    margin-top: 30px;
+    text-align: center; 
+    font-size: 30px;
+    color: rgb(231, 134, 134);
+        /* margin-right:10px;
+        text-shadow: 1px; */
+    /* float: right; */
+    margin: 0px auto;
+    margin-top: 5px;
+    margin: 10px auto;
+    left:50%;
+}

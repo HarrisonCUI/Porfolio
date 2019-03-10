@@ -9,7 +9,7 @@ body{
     position: relative;
     width: 100%;
     height: 50%;
-    background-image: url('/asset/SVG/background.svg');
+    background: url('/asset/SVG/background.svg');
     background-size: cover;
     background-repeat: no-repeat;
     
@@ -236,15 +236,15 @@ left:50%;
     height: 30%;
 }
 
-.Github2 img{
+.Github2 embed{
     width: 5rem;
 }
 
-.Download img{
+.Download embed{
     width: 5rem;
 }
 
-.MyArtWork img{
+.MyArtWork embed{
     width: 5rem;
 }
 
